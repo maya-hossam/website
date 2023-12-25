@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Merriweather', serif;
+ }
+
+
+/* navbar */
+#navbar {
+    background-color: rgb(67 0 86);
+}
+
+#logo {
+    margin-left: 15px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+#logo span {
+    color: #ffc800;
+}
+
+#logo #span1 {
+    font-size: 30px;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-item .nav-link {
+    color: white;
+    margin-left: 2px;
+    text-shadow: 0px 0px 1px black;
+    transition: 0.5s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: #ffc800;
+}
+
+.dropdown-menu li a {
+    color: white;
+    transition: 0.5s ease;
+}
+
+.dropdown-menu li a:hover {
+    background-color: rgb(67 0 86);
+    color: #ffc800;
+}
+
+#search input {
+    border-radius: 50px;
+    border: none;
+}
+
+#search button {
+    border-radius: 50px;
+    color: white;
+    border: 1px solid #ffc800;
+    background-color: #ffc800;
+}
+
+/* navbar */
+
+
+/* product cards */
+#product-cards {
+    margin-top: 100px;
+}
+
+#product-cards h1 {
+    color: #ffc800;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #ffc800;
+}
+
+#product-cards .card h3 {
+    font-size: 20px;
+    color: black;
+}
+
+#product-cards .card p {
+    font-size: 12px;
+    margin-top: 5px;
+    color: black;
+}
+
+.star i {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.checked {
+    color: #ffc800;
+}
+
+#product-cards .card h2 {
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+}
+
+#product-cards .card h2 span {
+    float: right;
+    color: black;
+    cursor: pointer;
+}
+
+#name{
+    color: rgb(187, 133, 187);
+}
+
+.form-label{
+    color: rgb(187, 133, 187);
+} 
+
+
+
+#emailHelp{
+    color: rgb(187, 133, 187); 
+}
+
+.btnbtn-primary{
+    border-radius: 50px;
+    color: white;
+    border: 1px solid #2600ffb4;
+    background-color: #2600ffd2; 
+}
+
+
+
+form{
+    
+    background-color: rgb(59, 0, 59);
+    padding: 50px;
+    border-radius: 20px;
+    
+
+}
+
+#name{
+    margin-top: 40px;
+}
+
+.btnbtn-primary{
+    width: 100%;
+    border: none;
+   background-color: rgb(187, 133, 187);
+  
+
+
+}
+
+
+/* product cards */
